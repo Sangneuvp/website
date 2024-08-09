@@ -1,0 +1,89 @@
+/* Đặt một số quy tắc CSS cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#destinations .destination {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+#destinations .destination img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Định dạng cho blog */
+#blog .post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+#blog .post h3 {
+    margin-top: 0;
+}
+
+#blog .post p {
+    color: #555;
+}
+
+#blog .post a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#blog .post a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho trang bài viết */
+#post-content img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
